@@ -1,10 +1,9 @@
 # BKK-GTFS-Sqlite lekerdezesek-pythonnal
 BKK GTFS CSV fileok Sqlite adabázissá alakítása és különböző lekérdezések python sqlite3 modullal
 
-### GTFS file forrás: https://bkk.hu/apps/gtfs/
+> A jupyter notebookok elérhetőek mardownként is [itt](https://github.com/xngst/BKK-GTFS-Sqlite-Python/tree/main/markdowns)
 
-### TODO
-* lekérdezéseket feltölteni
+### GTFS file forrás: https://bkk.hu/apps/gtfs/
 
 ## GTFS TÁBLÁK:
 
@@ -82,4 +81,5 @@ BKK GTFS CSV fileok Sqlite adabázissá alakítása és különböző lekérdez�
         date
         exception_type
 
-
+### TODO
+* lekérdezéseket feltölteni
