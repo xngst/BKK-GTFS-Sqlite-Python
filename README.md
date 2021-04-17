@@ -3,10 +3,9 @@
 "A menetrendi adatok hozzáférhetősége lehetővé teszi, hogy bárki meglevő szoftverébe integrálja az adatokat, illetve olyan új szoftvert fejlesszen, ami ezen adatokra épül. A rendszeresen frissített adatbázis néhány hónapra előre tartalmaz minden indulási és érkezési adatot a teljes nappali és éjszakai hálózatra, minden alágazatban (busz, trolibusz, villamos, metró, HÉV, hajó). Segítségével megjeleníthető a vonalhálózat, valamint minden megálló pontos helye a GPS koordináták segítségével." http://www.bkk.hu/tomegkozlekedes/fejlesztoknek/  "
 GTFS file forrás: https://bkk.hu/apps/gtfs/
 
-## BKK GTFS CSV fileok Sqlite adabázissá alakítása és különböző lekérdezések python sqlite3 modullal
-> A jupyter notebookok elérhetőek mardownként is [itt](https://github.com/xngst/BKK-GTFS-Sqlite-Python/tree/main/markdowns)
+## A jupyter notebookok elérhetőek mardownként is [itt](https://github.com/xngst/BKK-GTFS-Sqlite-Python/tree/main/markdowns)
 
-## GTFS TÁBLÁK ÁLTALÁNOS SÉMÁJA:
+### GTFS TÁBLÁK ÁLTALÁNOS SÉMÁJA:
 [google reference](https://developers.google.com/transit/gtfs/reference/)
 
     agency
@@ -80,6 +79,3 @@ GTFS file forrás: https://bkk.hu/apps/gtfs/
         service_id
         date
         exception_type
-
-### TODO
-* lekérdezéseket feltölteni
